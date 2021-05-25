@@ -50,9 +50,9 @@ public class assignment {
             For the development of this method I have referred
             https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3-buckets.html
          */
-        String accesskey = "ASIA3TAPEDRZDSHHQKTC";
-        String secretkey = "Oz9cPiEF15KVE74F13YN16WOT3v7D9NzqQwBsWA5";
-        String sessiontoken = "IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJIMEYCIQDqwT4G8oXEEIvG//8s9avOVUR353JyMtQnG6cQzjfqMQIhAMzmLM59S44nAqTkW3kB4dr6OoUQSj97+A3DwObK5OMFKrECCP3//////////wEQABoMNzk2NzQ4MTYwMTE0IgzcleEYtB8Y7j557rQqhQKr3B+Kjv/SsnCDRQqgUJxmsWLFzCY85em4tx59U7sPtMiEYEVr2Vsmo5azsbDRFSdhR3u/6+lkv4Waf2NYXePg/LRGvjrOYHjnqiEftUrZTLGhj3FERToF5R/GCxFJaCfvPdwtgZdOdwGz9T3uqcXzw8Dd7QgojwH3YsF4Lur4ufLygCt8YyGOvQguzLBDzbhaD7UZrY7x2/P1DzXKHM2MqETy1UHKeNr9u29It+GUb+Y5wE1sc9eLkTShjivspOnbhOtT9gkONcJrNRTrFdUWRyOmfkqy9nBvJEbwcoV86PG2AUJ2X5Jjyxv2E92zEfaImJNwSyDTINiZCiFEprquxv+DiKow2N6xhQY6nAFhE2F0axaYrUtV8/zWf9xjlgFeE7jaIswcGLPbz5nHk4v1rj4ZbFU+x2AJ1z4oYxz6DtsSJ79wiPABXN1xjSi7Tb2hoPocQHK6jX4+oBO6KpVTAJGTvNAGX8fUE+k4FkkQZlQc/0Mw0PoCCjHfq787psqER6Llea1dVXrQ0Ar48PznE1foQWKEsWoutaa2gvdzgFYuhCChBpb1t/A=";
+        String accesskey = "ASIA3TAPEDRZF4YHSEWO";
+        String secretkey = "gONsDKY7XYPkLSvjK8JMSBYPUTSpNaylAUPQ2Vrv";
+        String sessiontoken = "IQoJb3JpZ2luX2VjEGcaCXVzLXdlc3QtMiJHMEUCIQCVHlh77cquJ4JZa9nqkereArVAwPKJCGnYfYHL3mz/YQIgFrFgZlJj6XyQDzrvtF60oRckG4JdKZxZy5G2aTPpI9AqqAIIEBAAGgw3OTY3NDgxNjAxMTQiDBQmShvwNiOTUK3tgyqFAmYU85OuLM/+qSqrMM70zv07/VG/Hey32SOd9IQ0ow2lZMiLR5PoH2A0S9mtzMzaMid+0QGqdUKtkvJEbgmrEnN70svSWzatPHxqUEhU+1FyngUa3jh8SUNW4P5EdaXdIIBKglqiU3XutaQGQVotGocxqNUOaGS4BZ4CvpY2RjVqkuoQXTw8X0lKfFw8Mk/phNj4ekqAh0G3RhOtYpxz5jyPCHsJHvM4VjLgrUBjqSzTxFMizgJ8NbA4ijejKG2H06goftkA2e45i3wgZz/f0UjAZPrIqC4mtA0qTuOQiP1YrxQ5hY9Fb5L1T3dkb24IO6ZIacKjmEteEmlukpvsroMfkzERTzCBsLKFBjqdATrX6+yaG8Swx+XLh4AqOtiDgHzVjKPowMa+VN4JAPwenYAtX0NYFmbEYczoHki76J+fSN+ljPuoVpI0znGuKIjk3WZUyYEhCHPsYbjWtUntey6YWxBeL5I9PUORsZ8OfoFaSbS6gPkulxot560ITgxSCstL1zgpNrA+WjQJVCNlmPhF9PtLnZMS29brRwxvxk9db2VTSLqeIWDhlJI=";
         Regions region = Regions.US_EAST_1;
 
         BasicSessionCredentials awsCreds = new BasicSessionCredentials(accesskey,secretkey,sessiontoken);

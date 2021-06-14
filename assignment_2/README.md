@@ -18,3 +18,7 @@ npm start
 ```
 
 This will start the application
+
+### ZIP
+
+In case there is issue with CLRF and LF due to windows then here is the Zip file for the backup of the code.

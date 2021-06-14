@@ -18,5 +18,3 @@ npm start
 ```
 
 This will start the application
-
-In case there is an issue with LF and CLRF due to windows and Linux I will zip the code and also upload it there.

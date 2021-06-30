@@ -16,8 +16,9 @@ public class uploadfiles {
         uploadfiles up = new uploadfiles();
         AmazonS3 s3 = up.createS3client();
 
-        System.out.println("Enter the Bucket Name:");
-        String bucket_name = scan.nextLine();
+        // System.out.println("Enter the Bucket Name:");
+        // String bucket_name = scan.nextLine();
+        string bucket_name = "sampledatab0883311";
         up.upload_file(s3, bucket_name);
 
         }
